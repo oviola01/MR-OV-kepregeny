@@ -1,0 +1,83 @@
+/**repo előtti első simítások commentként jelezve, minden más sprintekből követhető*/
+/**oldalak alap felosztása és CSS alap formázása - Rafet*/
+@media(max-width:468px){
+    .container-1{
+      display:flex;
+    }
+    
+    .container-2{
+      display:flex;
+      min-height: 70vh;
+    }
+
+    .con2-box-1, .con2-box-3{
+        display: none;
+    }
+}
+
+html{
+    /**1. mód. - Viola*/ background-image: url(/pics/pattern.jpg);
+    /**1. mód. - Viola*/ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /**1. mód. - Viola*/ color:rgb(29, 25, 56)
+  }
+
+.main{
+    padding-top: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+  .container-1{
+    display:flex;
+  }
+  
+  .container-2{
+    display:flex;
+    min-height: 70vh;
+  }
+  
+  
+  .container-3{
+    display:flex;  
+    align-items:flex-start;
+  }
+  
+  .container-1 div, .container-2 div, .container-3 div{
+    border:1px #ccc solid;
+    padding:10px;
+  }
+  
+  .box-1{
+    flex:1;
+    /**1. mód. - Viola*/ background-color: rgb(198, 192, 219);
+    /**1. mód. - Viola*/ opacity: 68%;
+    border-radius: 15px;
+  }
+
+  
+  .con2-box-1{
+    flex: 1;  
+    border-radius: 15px;
+    /**1. mód. - Viola*/ background-color: rgb(187, 178, 223);
+    /**1. mód. - Viola*/ opacity: 78%;
+  }
+
+  .con2-box-2{
+    flex: 5;  
+    /**1. mód. - Viola*/ background-color: rgb(216, 211, 231);
+    border-radius: 15px;
+    /**1. mód. - Viola*/ opacity: 84%;
+  }
+  
+  .con2-box-3{
+    flex: 1;  
+    /**1. mód. - Viola*/ background-color: rgb(187, 178, 223);
+    /**1. mód. - Viola*/ opacity: 78%;
+    border-radius: 15px;
+  }
+
+  .container-3-box{
+    flex: 1;
+    /**1. mód. - Viola*/ background-color: rgb(198, 192, 219);
+    /**1. mód. - Viola*/ opacity: 68%;
+    border-radius: 15px ;
+  }
