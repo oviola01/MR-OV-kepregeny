@@ -20,6 +20,10 @@
       min-height: 70vh;
     }
 
+.kepregeny_kep{
+  width: 30px;
+  height: 30px;
+}
 
     .con2-box-1{
       flex: 1; 
