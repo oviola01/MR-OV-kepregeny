@@ -1,6 +1,9 @@
 /**repo előtti első simítások commentként jelezve, minden más sprintekből követhető*/
 /**oldalak alap felosztása és CSS alap formázása - Rafet*/
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Tourney&display=swap');
 @keyframes mymove {
   from {background-color: rgb(198, 192, 219);;}
   to {background-color: rgb(138, 127, 179);;}
@@ -17,23 +20,22 @@
       min-height: 70vh;
     }
 
+
     .con2-box-1{
       flex: 1; 
       text-align: center;
       order: 1;
       max-height: 50px;
       border-radius: 15px;
-      /**1. mód. - Viola*/ background-color: rgb(187, 178, 223);
-      /**1. mód. - Viola*/ opacity: 78%;
+      /**1. mód. - Viola*/ background-color: rgba(187, 178, 223,.9);
       
     }
   
     .con2-box-2{
       flex: 5;  
       order: 3;
-      /**1. mód. - Viola*/ background-color: rgb(216, 211, 231);
+      /**1. mód. - Viola*/ background-color: rgba(216, 211, 231, .5);
       border-radius: 15px;
-      /**1. mód. - Viola*/ opacity: 84%;
     }
     
     .con2-box-3{
@@ -41,8 +43,7 @@
       text-align: center;
       order: 2;
       max-height: 50px;
-      /**1. mód. - Viola*/ background-color: rgb(187, 178, 223);
-      /**1. mód. - Viola*/ opacity: 78%;
+      /**1. mód. - Viola*/ background-color: rgba(187, 178, 223, .9);
       border-radius: 15px;
     }
     
@@ -56,7 +57,6 @@
 html{
     /**1. mód. - Viola*/
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
     /**1. mód. - Viola*/ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /**1. mód. - Viola*/ color:rgb(29, 25, 56)
@@ -81,7 +81,9 @@ html{
     display:flex;
     margin-bottom: 10px;
   }
-  
+
+
+
   .container-2{
     display:flex;
     min-height: 70vh;
@@ -98,6 +100,16 @@ html{
     padding:10px;
   }
   
+
+.cim{
+  font-family: 'Press Start 2P', cursive;
+}
+
+.nev{
+  font-family: 'Tourney', cursive;
+  font-size: 1cm;
+}
+
   .box-1{
     flex:1;
     /**1. mód. - Viola*/ 
