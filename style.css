@@ -37,6 +37,10 @@
       /**1. mód. - Viola*/ background-color: rgba(216, 211, 231, .5);
       border-radius: 15px;
     }
+
+    .con2-box-2 img {
+      margin: auto;
+    }
     
     .con2-box-3{
       flex: 1; 
@@ -76,10 +80,15 @@ html{
     padding-left: 6%;
     padding-right: 6%;
 }
+
+.main h1 {
+  text-align: center;
+}
   .container-1{
     
     display:flex;
     margin-bottom: 10px;
+    text-align: center;
   }
 
 
@@ -90,10 +99,14 @@ html{
     margin-bottom: 10px;
   }
   
+  .container-2 h3 {
+    text-align: center;
+  }
   
   .container-3{
     display:flex;  
     align-items:flex-start;
+    text-align: center;
   }
   
   .container-1 div, .container-2 div, .container-3 div{
@@ -130,8 +143,18 @@ html{
     /**1. mód. - Viola*/ background-color: rgba(216, 211, 231, .5);
     border-radius: 15px;
     /**1. mód. - Viola*/ 
+    align-items: center;
+    justify-content: center;
+    }
+
+  .con2-box-2 h3 {
+    text-align: center;
   }
   
+  .con2-box-2 img {
+    margin: 40px;
+  }
+
   .con2-box-3{
     flex: 1;  
     /**1. mód. - Viola*/ background-color: rgba(187, 178, 223, .9);
