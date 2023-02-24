@@ -1,0 +1,168 @@
+/**repo előtti első simítások commentként jelezve, minden más sprintekből követhető*/
+/**oldalak alap felosztása és CSS alap formázása - Rafet*/
+
+@keyframes mymove {
+  from {background-color: rgb(198, 192, 219);;}
+  to {background-color: rgb(138, 127, 179);;}
+}
+
+@media(max-width:850px){
+    .container-1{
+      display:flex;
+    }
+    
+    .container-2{
+      flex-direction: column;
+      display:flex;
+      min-height: 70vh;
+    }
+
+    .con2-box-1{
+      flex: 1; 
+      text-align: center;
+      order: 1;
+      max-height: 50px;
+      border-radius: 15px;
+      /**1. mód. - Viola*/ background-color: rgb(187, 178, 223);
+      /**1. mód. - Viola*/ opacity: 78%;
+      
+    }
+  
+    .con2-box-2{
+      flex: 5;  
+      order: 3;
+      /**1. mód. - Viola*/ background-color: rgb(216, 211, 231);
+      border-radius: 15px;
+      /**1. mód. - Viola*/ opacity: 84%;
+    }
+    
+    .con2-box-3{
+      flex: 1; 
+      text-align: center;
+      order: 2;
+      max-height: 50px;
+      /**1. mód. - Viola*/ background-color: rgb(187, 178, 223);
+      /**1. mód. - Viola*/ opacity: 78%;
+      border-radius: 15px;
+    }
+    
+    .side_kon_szoveg{
+      display: none;
+    }
+    
+}
+
+
+html{
+    /**1. mód. - Viola*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /**1. mód. - Viola*/ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /**1. mód. - Viola*/ color:rgb(29, 25, 56)
+  }
+
+
+.urlap_elem{
+  height:min-content;
+  border-radius: 10px;
+  background-color:  rgba(198, 192, 219, .8);
+  margin-bottom: 10px;
+}
+
+
+.main{
+    padding-top: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+  .container-1{
+    
+    display:flex;
+    margin-bottom: 10px;
+  }
+  
+  .container-2{
+    display:flex;
+    min-height: 70vh;
+    margin-bottom: 10px;
+  }
+  
+  
+  .container-3{
+    display:flex;  
+    align-items:flex-start;
+  }
+  
+  .container-1 div, .container-2 div, .container-3 div{
+    padding:10px;
+  }
+  
+  .box-1{
+    flex:1;
+    /**1. mód. - Viola*/ 
+    /**1. mód. - Viola*/ 
+    animation: mymove 8s infinite;
+    border-radius: 15px;
+  }
+
+  
+  .con2-box-1{
+    flex: 1;  
+    border-radius: 15px;
+    /**1. mód. - Viola*/ background-color: rgba(187, 178, 223,.9);
+  }
+
+  .con2-box-2{
+    flex: 5;  
+    /**1. mód. - Viola*/ background-color: rgba(216, 211, 231, .5);
+    border-radius: 15px;
+    /**1. mód. - Viola*/ 
+  }
+  
+  .con2-box-3{
+    flex: 1;  
+    /**1. mód. - Viola*/ background-color: rgba(187, 178, 223, .9);
+    border-radius: 15px;
+  }
+
+  .container-3-box{
+    flex: 1;
+    /**1. mód. - Viola*/ background-color: rgba(198, 192, 219, .9);
+    border-radius: 15px ;
+  }
+
+.fo_kontent_box_1{
+  text-align: center;
+}
+
+
+.button-36 {
+  background-image: linear-gradient(92.88deg, #455EB5 9.16%, #5643CC 43.89%, #673FD7 64.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing:border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 13px;
+  font-weight: 500;
+  min-width: 160px;
+  height: 3rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all .5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-36:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: .1s;
+}
+
+
+
+
